@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="calculator">
+
+        <div class="result-bar">
+            <span id="Result" value=""></span>
+        </div>
+
+        <div class="controlls">
+            <input class="operator" type="button" value="AC" onclick="clearInput();">
+            <input class="operator" type="button" value="+/-" onclick="Fnegativo();">
+            <input class="operator" type="button" value="%" onclick="Fporcentaje();">
+            <input class="operator1" type="button" value="/" onclick="Fdivision();">
+
+            <input class="number" type="button" value="7" onclick="Fsiete();">
+            <input class="number" type="button" value="8" onclick="Focho();">
+            <input class="number" type="button" value="9" onclick="Fnueve();">
+            <input class="operator1" type="button" value="*" onclick="Fmultiplicacion();">
+            <input class="number" type="button" value="4" onclick="Fcuatro();">
+            <input class="number" type="button" value="5" onclick="Fcinco();">
+            <input class="number" type="button" value="6" onclick="Fseis();">
+            <input class="operator1" type="button" value="-" onclick="Fresta();">
+            <input class="number" type="button" value="1" onclick="Funo();">
+            <input class="number" type="button" value="2" onclick="Fdos();">
+            <input class="number" type="button" value="3" onclick="Ftres();">
+            <input class="operator1" type="button" value="+" onclick="Fsuma();">
+            
+            <div class="controles-infe">
+                <input class="number2" type="button" value="0" onclick="Fcero();">
+                
+            </div>
+
+            <div class="controles-infe2">
+                <input class="number" type="button" value="." onclick="Fdecimal();">
+                <input class="operator1" type="button" value="=" onclick="Fresultado();">
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js/code.js"></script>
+
+</body>
+</html>
